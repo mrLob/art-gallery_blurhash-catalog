@@ -1,46 +1,39 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  Modern React SPA featuring a full-stack art gallery with advanced image optimization and
+   GraphQL integration.
 
-## Available Scripts
+  Key Technologies & Features:
 
-In the project directory, you can run:
+  Frontend Stack:
+  - React 18 + TypeScript - Type-safe component architecture with strict typing
+  - GraphQL (graphql-hooks) - Efficient data fetching with custom hooks abstraction layer
+  - Styled Components 6 - CSS-in-JS with theming and component-scoped styles
+  - Framer Motion - Smooth animations and transitions
 
-### `npm start`
+  Image Optimization:
+  - BlurHash - Progressive image loading with generated placeholder previews
+  - React Image Magnifiers - Interactive product image zoom functionality
+  - Custom image transformation utilities for responsive serving
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  Architecture Highlights:
+  - Custom Hooks Pattern - Modular API layer (useAbout, usePaint, usePrints,
+  useCategories)
+  - Type-safe Data Transformers - Converting GraphQL responses to application types
+  - Context API - Global state management for GraphQL client
+  - React Router v6 - Client-side routing with dynamic product pages
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  UI/UX Features:
+  - Responsive Masonry Layout - Pinterest-style gallery grid
+  - React Markdown - Rich text content rendering
+  - React Ionicons - Icon system integration
+  - Mobile-first Design - Fully responsive across devices
 
-### `npm test`
+  Development Practices:
+  - ESLint + Prettier with Airbnb config
+  - Component-based architecture (Layout, Modules, Components separation)
+  - Environment variables for API configuration
+  - TypeScript strict mode with custom type definitions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  This project demonstrates proficiency in modern React patterns, performance optimization
+   techniques, and creating production-ready applications with clean architecture.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
